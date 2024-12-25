@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Outfit-Regular'; /* Name your font family */
+    src: url('font/Outfit-Regular.ttf'); /* Locate the .ttf file within your directory*/
+}
+
+* {
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit-Regular', sans-serif;
+}
+
+.container01 {
+   
+    display: flex;
+    justify-content: center;
+   
+}
+
+
+
+.c_d {
+    height: 450px;
+    width:290px;
+    border-radius: 3%;
+    background-color: white ;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    /* margin-top: 30px; */
+    padding: 10px;
+   
+}
+
+.qr_img {
+    height: 270px;
+    width: 280px;
+    border-radius: 3%;
+    background-image: url(images/image-qr-code.png);
+    background-size: cover;
+    margin-top: 4px;
+   
+    
+}
+
+.text1 {
+    background-color: white;
+    text-align: center;
+    /* font-size: 16px; */
+  
+    
+}
+b {
+    background-color: white;
+}
